@@ -1,0 +1,190 @@
+.page {
+  align-items: center;
+}
+
+.about-container {
+  background-color: #F5EDFF;
+  padding: 1px 1px;
+  border-radius: 5px;
+  border: 2px solid #b048ffc5;
+}
+
+.about-container h1 {
+  color: #0e3742;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -2px;
+  padding-left: 50px;
+  -webkit-box-reflect: below 1s linear-gradient(transparent, #0008);
+  animation: blink 1.5s linear infinite;
+  outline: none;
+  margin-top: 20px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+  50% {
+    color: white;
+    text-shadow: 0 0 5px #b048ffc5, 0 0 10px #b048ffc5, 0 0 20px #b048ffc5, 0 0 40px #b048ffc5, 0 0 80px #b048ffc5;
+  }
+}
+
+.dev {
+  width: 400px;
+  height: 450px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px #b048ffc5, -15px -15px 15px #b048ffc5, 15px -15px 15px #b048ffc5, -15px 15px 15px #b048ffc5;
+}
+
+.dev_image {
+  width: 450px;
+  height: 500px;
+  background-color: #F5EDFF;
+  margin-top: -195px;
+  margin-left: 1070px;
+  border-radius: 10px;
+  border: 2px solid #b048ffc5;
+}
+
+.aboutcontent {
+  width: 1050px;
+  height: 250px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 2px solid #b048ffc5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.aboutcontent p {
+  color: #0e3742;
+  margin-left: 20px;
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Lobster', cursive;
+}
+
+.row {
+  display: flex;
+  margin-left: 10px;
+}
+
+.Education {
+  width: 1050px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 2px solid #b048ffc5;
+  display: flex; 
+}
+
+.half {
+  width: 50%; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.half:first-child {
+  border-right: 2px solid #b048ffc5;
+}
+
+.Education p {
+  color: #0e3742;
+  margin-left: 20px;
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Lobster', cursive;
+}
+
+.skills, .projects, .certificates, .contact {
+  width: 1500px;
+  margin: 40px 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #b048ffc5;
+  background-color: #F5EDFF;
+}
+
+.title h1 {
+  color: #0e3742;
+  font-size: large;
+  font-weight: 1000;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 10px;
+}
+
+.skills-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.skills-container {
+  display: flex;
+  animation: scroll-cyclic 60s linear infinite;
+}
+
+@keyframes scroll-cyclic {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.skill-card {
+  display: inline-block;
+  width: 120px;
+  margin-right: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.skill-card span {
+  display: block;
+  margin-top: 5px;
+  color: #0e3742;
+  font-weight: bold;
+}
+
+.projects-container, .certificates-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project, .certificate {
+  flex: 1; 
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #b048ffc5;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project:hover, .certificate:hover {
+  transform: scale(1.05);
+}
+
+.project img, .certificate img {
+  width: 100%;
+  height: auto;
+}
+
+.contact a {
+  color: #0e3742;
+}

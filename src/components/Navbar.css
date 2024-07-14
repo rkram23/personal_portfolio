@@ -1,0 +1,29 @@
+/* components/Navbar.css */
+.navbar {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 20px;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  list-style-type: none; /* Remove list dots */
+}
+
+.nav-button {
+  padding: 10px 30px;
+  font-size: 25px;
+  color: #AF48FF;
+  background-color: #fefefe;
+  border: 2px solid #b048ffc5;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: #b048ffad;
+  color: #fefefe;
+  display: block;
+  filter:drop-shadow(0 0 10px #fffdef)
+}

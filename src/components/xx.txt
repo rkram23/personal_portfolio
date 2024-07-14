@@ -1,0 +1,230 @@
+/* home.css */
+.page {
+    align-items: center;
+  }
+  
+  .name {
+    color: var(--dark-90, #19192E);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.8px;
+  }
+  
+  .name1 {
+    color: #0e3742;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -2px;
+    padding-left: 70px;
+    -webkit-box-reflect: below 1s linear-gradient(transparent, #0008);
+    animation: blink 1.5s linear infinite;
+    outline: none;
+    margin-top: 0px;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      color: #0e3742;
+      text-shadow: none;
+    }
+    50% {
+      color: white;
+      text-shadow: 0 0 5px #b048ffc5, 0 0 10px #b048ffc5, 0 0 20px #b048ffc5, 0 0 40px #b048ffc5, 0 0 80px #b048ffc5;
+    }
+  }
+  
+  .about {
+    color: var(--gray-60, #5D87A8);
+    font-family: Circular Std;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .p2 {
+    color: var(--gray-60, #5D87A8);
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+    padding: 10px;
+    margin-left: 50px;
+  }
+  
+  .p2b {
+    color: var(--brand-main-50, #AF48FF);
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.28px;
+  }
+  
+  .row {
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .layout {
+    width: 290px;
+    height: 290px;
+    border-radius: 13.153px;
+    background: #FFF;
+    border: 2px solid #b048ffc5;
+    box-shadow: 0px 40px 30px 0px hsla(240, 100%, 0%, 0.546);
+    position: absolute;
+    top: 150px;
+    right: 200px;
+  }
+  
+  .ar {
+    border-radius: 13.153px;
+    background: #f00000;
+    box-shadow: 0px 40px 30px 0px rgba(25, 25, 46, 0.04);
+    position: absolute;
+    top: 40px;
+    right: 43px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 230px;
+    right: -19px;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .absolute2 {
+    position: absolute;
+    top: 350px;
+    left: 58px;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .txt {
+    color: #25323D;
+    font-family: Circular Std;
+    font-size: 15.784px;
+    font-weight: 700;
+  }
+  
+  .txt2 {
+    color: var(--gray-50, #5D87A8);
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+  
+  .ft {
+    color: #19192E;
+  }
+  
+        .icon-buttons {
+            display: flex;
+            margin-top: 40px;
+            margin-left: 55px;
+            position: absolute;
+            left: 0px;
+            justify-content: center;
+            align-items: center;
+            top: 350px;
+        }
+        
+        .icon-buttons a {
+            color: #AF48FF;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        
+        .icon-buttons a:hover {
+            color: #fefefe;
+        }
+        
+        .cv-button {
+            display: inline-block;
+            padding: 5px 20px;
+            font-size: 16px;
+            background-color: #ffffff;
+            color: #b048ffc5;
+            border: 2px solid #b048ffc5;
+            border-radius: 20px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .cv-button:hover {
+            background-color: #b048ffc5;
+            color: #AF48FF;
+        }
+  
+
+
+
+  import React from 'react';
+import { Cursor } from 'react-simple-typewriter';
+import myImage from '../myimg.jpg';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import './home.css';
+
+const Home = () => {
+  return (
+    <div className='page'>
+      <div>
+        <h1 className='name1'>Hi,I'm   RAMKUMAR</h1>
+      </div>
+      <div>
+        <p className="about">
+          I'm studying <span className="p2b">B.Tech Information Technology</span> in Dr.NGP Institute of Technology.<br />
+          I completed my schooling in Venkateshwara Vidhyalaya High School...
+        </p>
+      </div>
+      <div className="row">
+        <p className="p2">
+          I’m looking for new opportunities<br />
+          <span className="p2b"></span>
+        </p>
+        <p className="p2">
+          Email:<br />
+          <span className="p2b">ramkumararumugam23@gmail.com</span>
+        </p>
+      </div>
+      <div className="layout">
+        <div>
+          <img className="ar" src={myImage} alt="profile" />
+        </div>
+        <div className="absolute">
+          <h4 className="txt">Ramkumar</h4>
+        </div>
+      </div>
+      <div className="absolute2">
+        <h4 className="txt2">Coimbatore</h4>
+      </div>
+      <div className="icon-buttons">
+        <a href="https://www.linkedin.com/in/rkram23" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin size={30} />
+        </a>
+        <a href="https://github.com/rkram23" target="_blank" rel="noopener noreferrer">
+          <FaGithub size={30} />
+        </a>
+        <a href="src/myresume.pdf" download className="cv-button">Download CV</a>
+      </div>
+    </div>
+  );
+}
+
+export default Home;

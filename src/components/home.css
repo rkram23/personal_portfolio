@@ -1,0 +1,177 @@
+.page{
+  align-items: center;
+
+}
+.home-container {
+  background-color: #F5EDFF;
+  padding: 1px 1px;
+  border-radius: 5px;
+  border: 2px solid #b048ffc5;
+
+}
+
+
+.home-container h1 {
+  color: #0e3742;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -2px;
+  padding-left: 50px;
+  -webkit-box-reflect: below 1s linear-gradient(transparent, #0008);
+  animation: blink 1.5s linear infinite;
+  outline: none;
+  margin-top: 20px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+  50% {
+    color: white;
+    text-shadow: 0 0 5px #b048ffc5, 0 0 10px #b048ffc5, 0 0 20px #b048ffc5, 0 0 40px #b048ffc5, 0 0 80px #b048ffc5;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+.name1 {
+  padding: 10px;
+  margin: 50px;
+  color: #0e3742;
+  font-weight: bold;
+  font-family: 'Tangerine', serif;
+}
+
+.hi-animation {
+  display: inline-block; /* Required for animation */
+  animation: side-wave 1s ease-in-out infinite; /* Animation name and duration */
+}
+
+@keyframes side-wave {
+  0%, 100% {
+    transform: translateX(0); /* Start and end at the same position */
+  }
+  25% {
+    transform: translateX(5px); /* Move right */
+  }
+  50% {
+    transform: translateX(-5px); /* Move left */
+  }
+  75% {
+    transform: translateX(5px); /* Move right */
+  }
+}
+
+
+.about {
+  color: var(--gray-60, #5D87A8);
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.3px;
+  padding: 20px;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+.p2 {
+  color: var(--gray-60, #5D87A8);
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.28px;
+  padding: 10px;
+  margin-left: 75px;
+}
+.p2b {
+  color: var(--brand-main-50, #AF48FF);
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.28px;
+}
+.location{
+  color: var(--gray-60, #5D87A8);
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.28px;
+  padding: 10px;
+  margin-left: 75px;    
+  margin-top: -65px;
+}
+.icon-buttons {
+  display: flex;
+  margin-top: 220px;
+  margin-left: 75px;
+  position: absolute;
+  left: 0px;
+  justify-content: center;
+  align-items: center;
+  top: 350px;
+  gap: 20px;
+}
+
+.icon-buttons a {
+  color: #AF48FF;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.icon-buttons a:hover {
+  color: #000000;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #b048ffc5;
+  border: 2px solid #b048ffc5;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cv-button:hover {
+  background-color: #b048ffc5;
+  color: #AF48FF;
+}
+
+.photo{
+  width: 400px;
+  height: 400px;
+  background: #ffffff;
+  margin-left: 980px;
+ margin-top: -350px;
+ border: 2px solid #b048ffc5;
+ border-radius: 13.153px;
+ box-shadow: 0px 40px 30px 0px hsla(240, 100%, 0%, 0.546);
+ position: absolute;
+
+}
+.images {
+  border-radius: 13.153px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2), 20px 20px 30px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 300px; 
+  height: 300px;
+}
+.pic h1{
+  color: var(--gray-50, #5b8aae);
+  margin-top: 355px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Tangerine', serif;
+  margin-left: 120px;
+}
+

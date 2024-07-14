@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8ff; /* Light lavender background color */
+    color: #333; /* Dark text color */
+  }
+  
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .contact-page h1 {
+    color: #b048ffc5; /* Blue-violet color */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+    color: #b048ffc5; /* Blue-violet color */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #b048ffc5; /* Blue-violet color */
+    border-radius: 5px;
+    background-color: #f8f8ff; /* Light lavender background color */
+    color: #333; /* Dark text color */
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #b048ffc5; /* Darker blue-violet color */
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b048ffc5; /* Blue-violet color */
+    color: #fff; /* Light text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #b048ffc5; /* Darker blue-violet color */
+  }
+  
