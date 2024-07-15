@@ -187,7 +187,7 @@ const About = () => {
             <img src={project2} alt="Project 2" style={{ width: '100%', height: 'auto' }} />
             <h2 style={{ color: '#0e3742' }}>Portfolio Website</h2>
             <p style={{ color: '#0e3742' }}>Personal portfolio website using React-Vite</p>
-            <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <a href="https://personal-portfolio-rust-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button>GitHub</button>
             </a>
           </div>
@@ -195,7 +195,7 @@ const About = () => {
             <img src={project3} alt="Project 3" style={{ width: '100%', height: 'auto' }} />
             <h2 style={{ color: '#0e3742' }}>Automatic OMR MCQ grading System</h2>
             <p style={{ color: '#0e3742' }}>This project utilizes image processing techniques in Python to automatically grade multiple-choice question (MCQ) answer sheets.</p>
-            <a href="https://personal-portfolio-rust-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/rkram23/Automatic-OMR-Grading.git" target="_blank" rel="noopener noreferrer">
               <button>GitHub</button>
             </a>
           </div>
